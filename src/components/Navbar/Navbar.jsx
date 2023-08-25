@@ -8,7 +8,7 @@ function Navbar() {
       <Link to="/dsa">
         <span>DSA</span>
       </Link>
-      <Link to="javascript">
+      <Link to="/javascript">
         <span>JavaScript</span>
       </Link>
     </nav>

@@ -1,9 +1,31 @@
 import "./App.css";
 
-import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Dsa from "./components/DSA/Dsa";
+import JavaScript from "./components/JavaScript/JavaScript";
 
 function App() {
-  return <Navbar />;
+  return (
+    <Routes>
+      <Route
+        path="/dsa"
+        element={
+          <Home>
+            <Dsa />
+          </Home>
+        }
+      />
+      <Route
+        path="/javascript"
+        element={
+          <Home>
+            <JavaScript />
+          </Home>
+        }
+      />
+    </Routes>
+  );
 }
 
 export default App;

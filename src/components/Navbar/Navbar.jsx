@@ -1,10 +1,16 @@
 import "./Navbar.scss";
 
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
-      <span>DSA</span>
-      <span>JavaScript</span>
+      <Link to="/dsa">
+        <span>DSA</span>
+      </Link>
+      <Link to="javascript">
+        <span>JavaScript</span>
+      </Link>
     </nav>
   );
 }

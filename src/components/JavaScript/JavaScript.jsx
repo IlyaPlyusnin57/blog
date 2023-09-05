@@ -1,5 +1,9 @@
 function JavaScript() {
-  return <div>JavaScript</div>;
+  return (
+    <section>
+      <h1>JavaScript Articles</h1>
+    </section>
+  );
 }
 
 export default JavaScript;

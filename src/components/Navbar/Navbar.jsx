@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
+      <Link to="/">
+        <span>Home</span>
+      </Link>
       <Link to="/dsa">
         <span>DSA</span>
       </Link>

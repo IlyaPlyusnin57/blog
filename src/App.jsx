@@ -4,10 +4,19 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Dsa from "./components/DSA/Dsa";
 import JavaScript from "./components/JavaScript/JavaScript";
+import Welcome from "./components/Welcome/Welcome";
 
 function App() {
   return (
     <Routes>
+      <Route
+        path="/"
+        element={
+          <Home>
+            <Welcome />
+          </Home>
+        }
+      />
       <Route
         path="/dsa"
         element={

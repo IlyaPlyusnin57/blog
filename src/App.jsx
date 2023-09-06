@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Dsa from "./components/DSA/Dsa";
 import JavaScript from "./components/JavaScript/JavaScript";
 import Welcome from "./components/Welcome/Welcome";
+import ShowArticle from "./components/JavaScript/ShowArticle";
 
 function App() {
   return (
@@ -25,14 +26,11 @@ function App() {
           </Home>
         }
       />
-      <Route
-        path="/javascript"
-        element={
-          <Home>
-            <JavaScript />
-          </Home>
-        }
-      />
+
+      <Route path="/javascript" element={<Home />}>
+        <Route index element={<JavaScript />}></Route>
+        <Route path=":articleId" element={<ShowArticle />} />
+      </Route>
     </Routes>
   );
 }

@@ -30,6 +30,22 @@ function RemoveDuplicates() {
         const arrayWithoutDuplicateValues = [...new
         Set(arrayWithDuplicateValues)];
       </code>
+
+      <p>Time and Space Complexity</p>
+      <code>
+        Space: O(n)
+        <ul>
+          <li>We are creating a new array</li>
+        </ul>
+        <br />
+        Time: O(n)
+        <ul>
+          <li>
+            It takes n time to create a new set from an array and n time to
+            convert it back to an array. So O(2n) simplifies to O(n)
+          </li>
+        </ul>
+      </code>
     </section>
   );
 }

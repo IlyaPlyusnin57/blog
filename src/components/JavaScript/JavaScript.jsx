@@ -12,6 +12,14 @@ function JavaScript() {
 
         <Link
           className="article-link"
+          to="/javascript/is-array"
+          state={{ value: "IsArray" }}
+        >
+          <span>Check if an Object is an Array</span>
+        </Link>
+
+        <Link
+          className="article-link"
           to="/javascript/remove-duplicates"
           state={{ value: "RemoveDuplicates" }}
         >

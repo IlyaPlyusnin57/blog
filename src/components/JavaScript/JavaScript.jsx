@@ -8,6 +8,8 @@ function JavaScript() {
       <h1>JavaScript Articles</h1>
 
       <div className="article-list">
+        <h2>Arrays</h2>
+
         <Link
           className="article-link"
           to="/javascript/remove-duplicates"

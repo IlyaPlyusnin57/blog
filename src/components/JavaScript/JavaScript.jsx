@@ -25,6 +25,13 @@ function JavaScript() {
         >
           <span>Remove Duplicates from an Array</span>
         </Link>
+        <Link
+          className="article-link"
+          to="/javascript/iterate-over-elements-of-array"
+          state={{ value: "IterateOverElementsOfArray" }}
+        >
+          <span>Iterate Over Elements of Array</span>
+        </Link>
       </div>
     </section>
   );

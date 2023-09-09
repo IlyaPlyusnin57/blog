@@ -16,6 +16,15 @@ function IterateOverElementsOfArray() {
         for (const number of arr) &#123; <br />
         <span className="indent">console.log(number);</span> <br /> &#125;
       </code>
+
+      <p>2. Classic for loop</p>
+
+      <code>
+        <div className="mb-1">let arr = [1,2,3,4];</div>
+        <span>{"for(let i = 0; i < arr.length; i++)"}</span> &#123; <br />
+        <span className="indent">console.log(arr[i]);</span>
+        <br /> &#125;
+      </code>
     </section>
   );
 }
